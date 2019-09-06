@@ -1,0 +1,61 @@
+.container {
+  perspective: 8px;
+  perspective-origin: 0%; 
+  font-size: 44px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  max-width: 527rem!important;
+  background: yellow;
+  font-family: archivo, sans-serif;
+  color: orange;
+}
+.back {
+  width: 800rem;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, rgba(170,170,170,1)0, rgba(85,85,85,1) 100%); 
+  transform-origin: 0;
+  transform: translateZ(0);
+  opacity: .8;
+}
+.todes {
+  display: block;
+  transform-origin: 0;
+  height: 1rem;
+  position: absolute;
+  top: 30vh;
+  left: 0;
+  transform: translateZ(4px) scale(0.5);
+  white-space: nowrap;
+  color: yellow;
+  padding-left: 5rem;
+}
+.ninios {
+  display: block;
+  height: 1rem;
+  position: absolute;
+  top: 48vh;
+  left: 2000px;
+  transform-origin: 0;
+  transform: translateZ(3px) scale(0.625);
+  white-space: nowrap;
+  color: greenyellow;
+}
+.link {
+  text-decoration: none;
+  color: navajowhite;
+  font-size: 75%;
+}
+.biglink {
+  text-decoration: none;
+  font-size: 150%;
+  color: forestgreen;
+  position: absolute;
+  top: 33vh;
+  left: 13200px;
+}

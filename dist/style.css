@@ -1,0 +1,89 @@
+.container {
+  perspective: 8px;
+  perspective-origin: 0%; 
+  font-size: 44px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  max-width: 527rem!important;
+  background: yellow;
+  font-family: archivo, sans-serif;
+}
+.back {
+  width: 527rem;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0, rgba(0,0,0,1) 100%); 
+  transform-origin: 0;
+  transform: translateZ(0);
+  opacity: .2;
+}
+.todes, .padres {
+  display: block;
+  transform-origin: 0;
+  height: 1rem;
+  position: absolute;
+  top: 30vh;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  transform: translateZ(3px) scale(0.625);
+  white-space: nowrap;
+}
+.ninios {
+  display: block;
+  height: 1rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 48vh;
+  left: 2000px;
+  transform-origin: 0;
+  transform: translateZ(6px) scale(0.265);
+  white-space: nowrap;
+}
+.ninios2 {
+  display: block;
+  height: 1rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 48vh;
+  left: 0px;
+  transform-origin: 0;
+  transform: translateZ(6px) scale(0.265);
+  white-space: nowrap;
+}
+
+.eclipse {
+  display: block;
+  height: 1rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 52vh;
+  left: 0px;
+  transform-origin: 0;
+  transform: translateZ(6px) scale(0.265);
+  white-space: nowrap;
+}
+.padre {
+  display: block;
+  height: 1rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 43vh;
+  left: 2000px;
+  transform-origin: 0;
+  transform: translateZ(6px) scale(0.265);
+  white-space: nowrap;
+}
+.debug {
+  border: 1px solid black;
+  text-shadow: 1px 1px 1px white;
+}
