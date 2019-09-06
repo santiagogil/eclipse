@@ -50,7 +50,7 @@ window.addEventListener('load', function () {
   }
   var container = document.getElementById('container')
   document.addEventListener('click', function (e) {
-    if (e.target.className === 'biglink') console.log('catch'); return
+    if (e.target.className === 'biglink') return
     e.preventDefault()
     if (e.target.tagName === 'A') {
       container.scroll(e.target.parentElement.offsetLeft - 200, 0)

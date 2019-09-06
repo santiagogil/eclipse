@@ -9,7 +9,7 @@
   overflow-y: hidden;
   max-width: 527rem!important;
   background: yellow;
-  font-family: archivo, sans-serif;
+  font-family: archivoregular, sans-serif;
 }
 .back {
   width: 100vw;
@@ -38,4 +38,7 @@
   text-decoration: none;
   font-size: 75%;
   color: forestgreen;
+}
+h1 {
+  font-family: archivobold, sans-serif;
 }
